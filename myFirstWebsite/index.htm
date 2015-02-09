@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server" >
+    	<title>My Site</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.0/build/reset/reset-min.css">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8" />
+		<link rel="stylesheet" href="css/MenuMatic.css" type="text/css" media="screen" charset="utf-8" />
+		<!--[if lt IE 7]>
+			<link rel="stylesheet" href="css/MenuMatic-ie6.css" type="text/css" media="screen" charset="utf-8" />
+		<![endif]-->
+</head>
+<body>
+    
+   <div id="container" >
+   		
+   		<a id="logo" href="http://akazanjian.mrbenson.org/">Alex's Site</a>
+   		
+	    
+		<!-- BEGIN Menu -->
+	    <ul id="nav">
+			<li><a href="#">Links</a>
+                <ul>
+					<li><a href="#">My WordPress Site</a>
+						<ul>
+							<li><a href="http://akazanjian.mrbenson.org">My Home Page</a></li>
+							<li><a href="http://akazanjian.mrbenson.org/pde/">Cyberduck FTP</a></li>
+						</ul>
+					</li>
+                </ul>
+                <ul>
+                    <li><a href="#">My GitHub</a></li>
+                </ul>
+			</li>
+		</ul>
+	
+		<!-- END Menu -->
+
+	    <div id="content">	   	 
+			<h1>Alex's Page</h1>
+			<p>Hello! This is my customized version of MenuMatic's horizontal theme site.</p>
+    	</div>
+    		  
+    </div>
+	
+	<!-- Load the Mootools Framework -->
+	<script src="http://www.google.com/jsapi"></script><script>google.load("mootools", "1.2.1");</script>	
+	
+	<!-- Load the MenuMatic Class -->
+	<script src="js/MenuMatic_0.68.3.js" type="text/javascript" charset="utf-8"></script>
+	
+	<!-- Create a MenuMatic Instance -->
+	<script type="text/javascript" >
+		window.addEvent('domready', function() {			
+			var myMenu = new MenuMatic();
+		});		
+	</script>
+	
+	<!-- begin google tracking code -->
+	 <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-2180518-1");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+    </script>
+	<!-- end google tracking code -->
+	
+</body>
+</html>
